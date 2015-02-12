@@ -13,17 +13,29 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal">
 
-        <Button
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Vandal"
+            android:textSize="50dp"
             android:layout_marginRight="25dp"
-            android:id="@+id/button"/>
+            android:id="@+id/textViewVandal"
+            android:clickable="true" />
 
-        <Button
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vs."
+            android:textSize="25dp"
+            android:layout_marginRight="25dp"
+            android:id="@+id/textView3" />
+
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Janitor"
-            android:id="@+id/button2" />
+            android:textSize="50dp"
+            android:id="@+id/textViewJanitor"
+            android:clickable="true" />
     </LinearLayout>
 </LinearLayout>
