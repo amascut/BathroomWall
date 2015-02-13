@@ -1,41 +1,72 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="wrap_content" android:paddingLeft="@dimen/activity_horizontal_margin"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
     android:orientation="vertical"
     android:layout_gravity="center_vertical"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".StartScreen">
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".StartScreen"
+    android:background="@color/material_blue_grey_800">
 
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal">
+        android:layout_gravity="right">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Vandal"
-            android:textSize="50dp"
-            android:layout_marginRight="25dp"
-            android:id="@+id/textViewVandal"
-            android:clickable="true" />
+            android:layout_gravity="right"
+            android:text="Funds: $"
+            android:id="@+id/textViewStatusLabel" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Vs."
-            android:textSize="25dp"
-            android:layout_marginRight="25dp"
-            android:id="@+id/textView3" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Janitor"
-            android:textSize="50dp"
-            android:id="@+id/textViewJanitor"
-            android:clickable="true" />
+            android:text="0"
+            android:id="@+id/textViewFunds" />
     </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vandal"
+                android:textSize="50dp"
+                android:layout_marginRight="25dp"
+                android:id="@+id/textViewVandal"
+                android:clickable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vs."
+                android:textSize="25dp"
+                android:layout_marginRight="25dp"
+                android:id="@+id/textView3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Janitor"
+                android:textSize="50dp"
+                android:id="@+id/textViewJanitor"
+                android:clickable="true" />
+        </LinearLayout>
+    </LinearLayout>
+
 </LinearLayout>

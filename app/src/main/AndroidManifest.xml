@@ -19,11 +19,13 @@
         </activity>
         <activity
             android:name=".Vandal"
-            android:label="@string/title_activity_vandal" >
+            android:label="@string/title_activity_vandal"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".Janitor"
-            android:label="@string/title_activity_janitor" >
+            android:label="@string/title_activity_janitor"
+            android:screenOrientation="portrait">
         </activity>
     </application>
 
